@@ -1,7 +1,5 @@
 # .NET MAUI + WinUI Rating Control Demo
 
-![image](https://user-images.githubusercontent.com/1096616/187049278-b975e3ca-b2b6-437e-b63f-6d4210733c93.png)
-
 ## Usage
 
 Create the view and handler:
@@ -15,3 +13,7 @@ https://github.com/mattleibow/MauiWinUIRatingControlDemo/blob/main/MauiApp4/Maui
 Use the view:
 
 https://github.com/mattleibow/MauiWinUIRatingControlDemo/blob/main/MauiApp4/MainPage.xaml#L13-L17
+
+## Screenshot
+
+![image](https://user-images.githubusercontent.com/1096616/187049278-b975e3ca-b2b6-437e-b63f-6d4210733c93.png)
