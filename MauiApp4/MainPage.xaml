@@ -10,7 +10,14 @@
             Padding="30,0"
             VerticalOptions="Center">
 
-            <local:WinUIRatingControl />
+            <local:WinUIRatingControl x:Name="ratingControl" />
+
+            <Label Text="{Binding Value, Source={Reference ratingControl}}"
+                   HorizontalOptions="Center" />
+
+            <Stepper Value="{Binding Value, Source={Reference ratingControl}}"
+                     Maximum="5" Minimum="-1"
+                     HorizontalOptions="Center" />
 
             <Image
                 Source="dotnet_bot.png"
