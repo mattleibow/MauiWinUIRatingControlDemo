@@ -10,7 +10,11 @@
             Padding="30,0"
             VerticalOptions="Center">
 
-            <local:WinUIRatingControl x:Name="ratingControl" />
+            <OnPlatform x:TypeArguments="local:WinUIRatingControl">
+                <On Platform="WinUI">
+                    <local:WinUIRatingControl x:Name="ratingControl" />
+                </On>
+            </OnPlatform>
 
             <Label Text="{Binding Value, Source={Reference ratingControl}}"
                    HorizontalOptions="Center" />
