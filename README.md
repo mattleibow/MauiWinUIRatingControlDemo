@@ -11,3 +11,7 @@ https://github.com/mattleibow/MauiWinUIRatingControlDemo/blob/main/MauiApp4/WinU
 Register the handler:
 
 https://github.com/mattleibow/MauiWinUIRatingControlDemo/blob/main/MauiApp4/MauiProgram.cs#L11
+
+Use the view:
+
+https://github.com/mattleibow/MauiWinUIRatingControlDemo/blob/main/MauiApp4/MainPage.xaml#L13-L17
